@@ -1,0 +1,46 @@
+body {
+    background-color: #232230;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    color: white;
+}
+
+.profileImage {
+    width: 300px;
+}
+
+.about {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border: 2px solid white; /* Add border */
+    opacity: 0.8; /* Add opacity */
+    background-color: #2e2e3a; /* Optional: Add background color */
+    color: white;
+}
+ 
+ .btn-dark {
+    background-color: #c8529e;
+    color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+ }
+
