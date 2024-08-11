@@ -16,15 +16,20 @@ body {
     width: 300px;
 }
 
+.nav-link {
+    border: 0.001px solid #013d3d;
+    border-radius: 10px;
+}
+
 .about {
     display: flex;
     justify-content: top;
     align-items: center;
     flex-direction: column;
     margin-top: 70px;
-    border: 2px solid white; /* Add border */
-    opacity: 0.8; /* Add opacity */
-    background-color: #2e2e3a; /* Optional: Add background color */
+    border: 2px solid white; 
+    opacity: 0.8; 
+    background-color: #2e2e3a; 
     color: white;
 }
  
@@ -44,3 +49,31 @@ body {
     gap: 4px;
  }
 
+.yap {
+    background-color: #2a2936;
+    transform: translateY(-120px);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.first { 
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+.third { 
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.contact a {
+    font-size: 50px;
+    margin-left: 10px;     
+}
+
+.watermark{
+    margin-top: 20px;
+}
