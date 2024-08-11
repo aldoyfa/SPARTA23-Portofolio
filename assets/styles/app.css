@@ -47,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 4px;
+    transform:translateY(-220px);
  }
 
 .yap {
@@ -76,4 +77,8 @@ a {
 
 .watermark{
     margin-top: 20px;
+}
+
+.gelodua {
+    transform:rotate(180deg) translateY(140px);
 }
